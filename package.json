@@ -1,0 +1,27 @@
+{
+  "name": "react-project",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "lint": "eslint .",
+    "cypress": "cypress open",
+    "playwright": "playwright test"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "^5.0.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^14.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "cypress": "^13.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "playwright": "^1.38.0"
+  }
+}
